@@ -85,13 +85,13 @@ class Repository<T> {
 public class Main {
     public static void main(String[] args) {
         List<Student> list = new ArrayList<>();
-        list.add(new Student("S1", "Alice", 85));
-        list.add(new Student("S2", "Bob", 78));
-        list.add(new Student("S3", "Charle", 90));
+        list.add(new Student("S1", "Akku", 85));
+        list.add(new Student("S2", "Balwinder", 78));
+        list.add(new Student("S3", "Chant", 90));
 
-        list.add(new GraduateStudent("G1", "David", 88, "Computer Science"));
+        list.add(new GraduateStudent("G1", "Danger", 88, "Computer Science"));
 
-        list.add(new HonourStudent("H1", "Eve", 92, 10));
+        list.add(new HonourStudent("H1", "Eleven", 92, 10));
 
         Repository<Student> repo = new Repository<>();
         for(Student s : list) {
